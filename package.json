@@ -1,5 +1,33 @@
 {
+  "name": "gabarito-da-aula-1-20250210t224723z-001",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
-    "mongodb": "^6.13.0"
-  }
+    "bson": "^6.10.2",
+    "memory-pager": "^1.5.0",
+    "mongodb": "^6.13.0",
+    "mongodb-connection-string-url": "^3.0.2",
+    "punycode": "^2.3.1",
+    "sparse-bitfield": "^3.0.3",
+    "tr46": "^5.0.0",
+    "webidl-conversions": "^7.0.0",
+    "whatwg-url": "^14.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoAlves-development/deploy-spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoAlves-development/deploy-spotify/issues"
+  },
+  "homepage": "https://github.com/GustavoAlves-development/deploy-spotify#readme",
+  "description": ""
 }
